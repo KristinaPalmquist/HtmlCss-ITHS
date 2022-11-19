@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Kom och ta en kopp kaffe på kafé hjärtat när du behöver en paus"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Hjärtat</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar-flex-container">
+      <div class="navbar-flex-item1">
+        <h1 class="brand-name">Kafé Hjärtat</h1>
+      </div>
+      <div class="navbar-flex-item2">
+        <ul class="navbar-links">
+          <li><a href="#menu-header">Meny</a></li>
+          <li><a href="#contact-form-header">Kontakta oss</a></li>
+          <li>
+            <a href="https://goo.gl/maps/H8AxByyj5oeA5vEC8" target="_blank"
+              >Hitta hit</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header>
+      <section class="header-image">
+        <p class="header-p" id="header-text-welcome">Välkommen till oss på</p>
+        <h2 id="header-brandname">Kafé Hjärtat!</h2>
+        <p class="header-p" id="header-text-come">
+          Hos oss kan du alltid <br />
+
+          få nåt gott att äta och <br />
+
+          nåt varmt att dricka.
+        </p>
+        <p class="header-p" id="header-text-or">Eller tvärtom.</p>
+        <p class="header-p" id="header-text-scroll">
+          Scrolla ner för att se bilder, vad som händer och vår meny!
+        </p>
+        <p class="header-p" id="header-text-arrows">˅<br />˅<br />˅</p>
+      </section>
+    </header>
+    <main>
+      <!-- Info and image section-->
+      <section class="info-section-grid-container">
+        <div id="info1"></div>
+        <div id="info2"></div>
+        <div id="info3">
+          <!-- For screen size < 550px and > 661px -->
+          <h2 id="info3-header-standard">Nu har vi stängt innergården...</h2>
+          <!-- For screen size 550px - 661px -->
+          <h2 id="info3-header-special">Nu har vi stängt inner- gården...</h2>
+          <p id="info3-text1">
+            ...för den här säsongen. Kvällarna börjar bli kalla och då flyttar
+            vi enligt tradition in och så även i år.
+          </p>
+          <p id="info3-text2">
+            Inne på kaféet kan du som vanligt fika eller äta enklare rätter. När
+            solen värmer igen kommer vi att vara beredda med pizza och musik på
+            vår underbara gård!
+          </p>
+        </div>
+        <div id="info4"></div>
+        <div id="info5"></div>
+        <div id="info6"></div>
+      </section>
+      <!-- Flex container for menu and contact form -->
+      <div class="flex-container">
+        <!-- Menu section -->
+        <div id="flex-item1">
+          <section class="menu">
+            <h2 id="menu-header">MENY</h2>
+            <div class="menu-container">
+              <div id="menu-item1">Kaffe</div>
+              <div id="menu-item2">30 kr</div>
+              <div id="menu-item3">Te</div>
+              <div id="menu-item4">25 kr</div>
+              <div id="menu-item5">Saft</div>
+              <div id="menu-item6">15 kr</div>
+              <div id="menu-item7">Läsk</div>
+              <div id="menu-item8">25 kr</div>
+              <div id="menu-item9">Småkaka</div>
+              <div id="menu-item10">20 kr</div>
+              <div id="menu-item11">Croissant</div>
+              <div id="menu-item12">30 kr</div>
+              <div id="menu-item13">Kladdkaka + grädde</div>
+              <div id="menu-item14">50 kr</div>
+              <div id="menu-item15">Smörgås</div>
+              <div id="menu-item16">50 kr</div>
+              <div id="menu-item17">Grillad smörgås + sallad</div>
+              <div id="menu-item18">125 kr</div>
+              <div id="menu-item19">Dagens soppa + bröd</div>
+              <div id="menu-item20">125 kr</div>
+              <div id="menu-item21">Pannkaka + sylt + grädde</div>
+              <div id="menu-item22">50 kr</div>
+            </div>
+            <br />
+          </section>
+        </div>
+        <!-- Contact form -->
+        <div id="flex-item2">
+          <section class="contact-form" id="contact-form-outer-container">
+            <h2 id="contact-form-header">Kontakta oss...</h2>
+            <div class="contact-form-inner-container">
+              <form>
+                <label id="label-firstname" for="firstname">Förnamn</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  name="förnamn"
+                  placeholder="Hej, vad heter du?"
+                />
+                <br />
+                <label id="label-lastname" for="lastname">Efternamn</label>
+                <input
+                  type="text"
+                  id="lastname"
+                  name="efternamn"
+                  placeholder="Frivilligt att berätta"
+                />
+                <br />
+                <label id="label-email" for="email">Mailadress</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="mailadress"
+                  placeholder="Om du vill ha återkoppling"
+                />
+                <br />
+                <label id="label-subject" for="subject">Kommentar</label>
+                <textarea
+                  name="kommentar"
+                  id="subject"
+                  placeholder="Skriv här!"
+                  cols="50"
+                  rows="10"
+                ></textarea>
+                <input id="submit-input" type="submit" value="Skicka in!" />
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- Image interior-->
+      <div id="image-interior-container">
+        <div id="image-interior">
+          <h2 id="image-interior-header">
+            Det går utmärkt att slå sig ner och jobba en stund!
+          </h2>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;Kristina Palmquist, 2022</p>
+    </footer>
+  </body>
+</html>
+
+<!-- Above validated 2022-09-20 18:04 // KP -->
